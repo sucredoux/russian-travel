@@ -1,0 +1,28 @@
+.content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "lead"
+    "intro"
+    "photo-grid"
+    "places"
+    "cover";
+  gap: 92px;
+  align-items: center;
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    gap: 64px;
+  }
+}

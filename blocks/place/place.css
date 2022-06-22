@@ -1,0 +1,27 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 48px 40px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 32px;
+  }
+}
