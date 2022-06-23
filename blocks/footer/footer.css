@@ -5,24 +5,25 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding-top: 92px;
+  padding: 92px 48px 24px 48px;
+
   box-sizing: border-box;
   font-family: 'Inter', Arial, sans-serif;
 }
 
 @media (max-width: 1024px) {
   .footer {
-    padding: 92px 48px;
+    padding: 92px 48px 24px 48px;
   }
 }
 
 @media (max-width: 768px) {
   .footer {
-    padding: 88px 24px;
+    padding: 88px 24px 24px 24px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .footer {
     flex-direction: column;
     justify-content: flex-start;
@@ -30,7 +31,7 @@
 }
 
 @media (max-width: 320px) {
-  .content {
-    padding: 64px 16px;
+  .footer {
+    padding: 64px 16px 24px 16px;
   }
 }
