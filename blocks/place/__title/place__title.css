@@ -14,8 +14,9 @@
 
 @media (max-width: 320px) {
   .place__title {
+    max-width: calc(100vw - 16px*2);
     font-size: 32px;
     line-height: 1.09;
-    padding-left: 16px;
+    padding: 0 16px 0 16px;
   }
 }

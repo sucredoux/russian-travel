@@ -8,8 +8,9 @@
   width: 100%;
   text-align: center;
   text-decoration: none;
+  background: rgba(42, 44, 47, 0.3);
 }
 
 .cover__container:hover {
-  background: rgba(42, 44, 47, 0.3);
+  background: rgba(42, 44, 47, 0.8);
 }

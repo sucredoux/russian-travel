@@ -12,13 +12,13 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .place {
     gap: 48px 28px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   .place {
     grid-template-columns: 100%;
     grid-template-rows: auto;
