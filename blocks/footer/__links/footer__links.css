@@ -1,8 +1,6 @@
 .footer__links {
   display: flex;
-  position: relative;
   flex-direction: row;
-  justify-content: flex-start;
 }
 
 @media (max-width: 767px) {

@@ -4,7 +4,6 @@
   background-image: url(../../images/cover__background.jpg);
   background-size: cover;
   background-position: center;
-  font-family: 'Inter', Arial, sans-serif;
 }
 
 .cover::after {

@@ -1,20 +1,11 @@
 .footer {
   grid-area: footer;
   display: flex;
-  position: relative;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   padding: 92px 48px 24px 48px;
-
   box-sizing: border-box;
-  font-family: 'Inter', Arial, sans-serif;
-}
-
-@media (max-width: 1024px) {
-  .footer {
-    padding: 92px 48px 24px 48px;
-  }
 }
 
 @media (max-width: 768px) {
