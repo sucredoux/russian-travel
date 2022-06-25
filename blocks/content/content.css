@@ -9,9 +9,6 @@
     "places"
     "cover";
   gap: 92px;
-  align-items: center;
-  margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
   padding: 0 48px 0 48px;
 }
 

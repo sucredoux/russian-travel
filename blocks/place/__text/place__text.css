@@ -1,19 +1,19 @@
 .place__text {
- display: grid;
- grid-template-columns: 100%;
- gap: 27px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
 }
 
 @media (max-width: 768px) {
   .place__text {
-    gap: 25px;
+    font-size: 16px;
+    line-height: 1.63;
   }
 }
 
 @media (max-width: 320px) {
   .place__text {
     max-width: calc(100vw - 16px*2);
-    gap: 25px;
     padding: 0 16px 0 16px;
   }
 }

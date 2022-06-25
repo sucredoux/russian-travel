@@ -1,8 +1,0 @@
-.lead__image-box {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  max-width: 984px;
-}

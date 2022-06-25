@@ -1,12 +1,9 @@
 .lead {
   grid-area: lead;
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: center;
-  max-height: 1005px;
   padding: 56px 100px 0 100px;
-  font-family: 'Inter', Arial, sans-serif;
 }
 
 @media (max-width: 1024px) {
