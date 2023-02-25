@@ -19,4 +19,4 @@
 
 Явно не хватает подключенной английской версии.
 
-Проект выложен по ссылке https://sucredoux.github.io/russian-travel/index.html
+Проект выложен по ссылке https://travel-sucredoux.surge.sh/
